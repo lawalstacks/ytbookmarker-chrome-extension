@@ -1,5 +1,3 @@
-// content.js
-
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'saveVideo') {
     saveCurrentVideo();
@@ -23,7 +21,7 @@ function saveCurrentVideo() {
 
   alert("Video saved!");
 }
-// Create and style the floating card
+// Create and style the floating card c
 const floatingCard = document.createElement('div');
 floatingCard.style.position = 'fixed';
 floatingCard.style.bottom = '20px';
